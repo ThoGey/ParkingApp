@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">ParkingApp</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="main_title">Beschikbare parkings</string>
+
+    <string name="item_title">Parking naam</string>
+    <string name="item_adress">Adres</string>
+    <string name=""
 </resources>
