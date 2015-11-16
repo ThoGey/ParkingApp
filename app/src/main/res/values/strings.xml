@@ -7,5 +7,5 @@
 
     <string name="item_title">Parking naam</string>
     <string name="item_adress">Adres</string>
-    <string name=""
+    <string name="item_contact">Contact</string>
 </resources>
