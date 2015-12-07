@@ -56,7 +56,7 @@ public class RSSFeedHandler extends DefaultHandler{
     public void endElement(String namespaceURI, String localName,
                            String qName) throws SAXException
     {
-        if (qName.equals("item")) {
+        if (qName.equals("element")) {
             feed.addItem(item);
             return;
         }
@@ -68,7 +68,7 @@ public class RSSFeedHandler extends DefaultHandler{
         String s = new String(ch, start, length);
         if (isName) {
             if (nameHasBeenRead == false) {
-                feed.setName(s);
+                item.setName(s);
                 nameHasBeenRead = true;
             }
             else {

@@ -10,21 +10,13 @@ import java.util.Locale;
  * Created by thoma on 11/16/2015.
  */
 public class RSSFeed {
-    private String name = null;
-    private ArrayList<RSSItem> items;
 
+    private ArrayList<RSSItem> items;
 
     public RSSFeed() {
         items = new ArrayList<RSSItem>();
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
 
     public int addItem(RSSItem item) {
         items.add(item);

@@ -56,7 +56,7 @@ public class FileIO {
                 out.close();
                 in.close();
             } catch (IOException e) {
-                Log.e("News reader", e.toString());
+                Log.e("Parking", e.toString());
             }
         }
     }
@@ -84,7 +84,7 @@ public class FileIO {
             return feed;
         }
         catch (Exception e) {
-            Log.e("News reader", e.toString());
+            Log.e("Beschikbare parking", e.toString());
             return null;
         }
     }
